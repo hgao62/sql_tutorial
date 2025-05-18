@@ -1,3 +1,4 @@
+--Chapter 6: Calculated Fields(计算字段)
 
 --6.1 拼接 column  
 SELECT ticker, sector ||
@@ -12,5 +13,3 @@ FROM sp500_holdings;
 --6.3 数学计算
 select ticker, date, close, close*0.8 as adjusted_close
 from stocks_price
-
---chapter 7 summarize and group data

@@ -1,3 +1,5 @@
+--Chapter 4: Sort Data(排序数据)
+
 --4.1 对单个column 进行升序排序
 select  *
 from stocks_price
@@ -44,6 +46,8 @@ order by trader_name,quantity desc
 
 --exercise 4.2
 --Get top 5 customers(Name, Phonenumber,  Address,PointsEarned) who earned most points
+--(从 customers 表里面提取 Name, Phonenumber,  Address,PointsEarned
+-- 然后对 PointsEarned 进行降序排列， 只提取前5行数据）
 SELECT Name, PhoneNumber, Address, PointsEarned
 FROM customers
 ORDER BY PointsEarned DESC
@@ -51,7 +55,8 @@ LIMIT 5;
 
 --exercise 4.3
 --Get customers(Name, Phonenumber,  Address, PointsEarned) who ranked 3 to 6 in points earned.
-
+--(从 customers 表里面提取 Name, Phonenumber,  Address, PointsEarned
+-- 然后对 PointsEarned 进行降序排列， 只提取第3到第6行数据）
 SELECT Name, PhoneNumber, Address, PointsEarned
 FROM customers
 ORDER BY PointsEarned DESC

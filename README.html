@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>SQL Tutorial</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2em; background: #f9f9f9; color: #222; }
+    h1, h2, h3 { color: #2c3e50; }
+    code { background: #eee; padding: 2px 4px; border-radius: 3px; }
+    ul { margin-bottom: 1em; }
+    a { color: #2980b9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .section { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 1.5em; margin-bottom: 2em; }
+  </style>
+</head>
+<body>
+  <h1>SQL Tutorial</h1>
+  <div class="section">
+    <p>本项目为 SQL 基础教程，包含多个章节的 SQL 示例脚本和一个示例数据库 <code>tutorial_data.db</code>，适合初学者自学和练习。</p>
+  </div>
+  <div class="section">
+    <h2>目录结构</h2>
+    <ul>
+      <li><b>chapter 1: Introduction</b>（无对应 SQL 脚本）</li>
+      <li><code>chatper2_retrieve_data.sql</code>：第 2 章，数据检索</li>
+      <li><code>chapter3_filter_data.sql</code>：第 3 章，数据筛选</li>
+      <li><code>chapter4_sort_data.sql</code>：第 4 章，数据排序</li>
+      <li><code>chapter5_wildcard_filtering.sql</code>：第 5 章，通配符筛选</li>
+      <li><code>chapter6_calculated_fields.sql</code>：第 6 章，计算字段</li>
+      <li><code>chapter7_summarize_data.sql</code>：第 7 章，数据汇总</li>
+      <li><code>chapter8_join.sql</code>：第 8 章，表连接</li>
+      <li><code>tutorial_data.db</code>：示例 SQLite 数据库文件</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>环境准备</h2>
+    <h3>1. 下载并安装 SQLite Management Studio</h3>
+    <p>推荐使用 <a href="https://sqlitestudio.pl/" target="_blank">SQLiteStudio</a> 或 <a href="https://sqlitebrowser.org/" target="_blank">DB Browser for SQLite</a>。</p>
+    <h4>以 SQLiteStudio 为例：</h4>
+    <ol>
+      <li>访问 <a href="https://sqlitestudio.pl/" target="_blank">https://sqlitestudio.pl/</a> ，点击“Download”下载适合你操作系统的版本。</li>
+      <li>解压并运行 <code>SQLiteStudio.exe</code>，无需安装。</li>
+    </ol>
+    <h3>2. 打开示例数据库</h3>
+    <ol>
+      <li>启动 SQLiteStudio。</li>
+      <li>点击左上角“添加数据库”按钮，选择本项目中的 <code>tutorial_data.db</code> 文件。</li>
+      <li>数据库添加后，可在左侧浏览表结构和数据。</li>
+    </ol>
+    <h3>3. 运行 SQL 脚本</h3>
+    <ol>
+      <li>在 SQLiteStudio 中，点击顶部“SQL 编辑器”按钮。</li>
+      <li>打开对应章节的 <code>.sql</code> 文件，将内容复制粘贴到编辑器中。</li>
+      <li>点击“执行”按钮（绿色三角形）运行 SQL 语句，查看结果。</li>
+    </ol>
+  </div>
+  <div class="section">
+    <h2>学习建议</h2>
+    <ul>
+      <li>按章节顺序依次学习，每个 SQL 文件对应一个知识点。</li>
+      <li>可自行修改 SQL 语句，尝试不同的查询和操作。</li>
+      <li>如遇到问题，可查阅 SQLite 官方文档或在网上搜索相关资料。</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>参考资料</h2>
+    <ul>
+      <li><a href="https://www.sqlite.org/docs.html" target="_blank">SQLite 官方文档</a></li>
+      <li><a href="https://sqlitestudio.pl/" target="_blank">SQLiteStudio 官网</a></li>
+      <li><a href="https://sqlitebrowser.org/" target="_blank">DB Browser for SQLite 官网</a></li>
+    </ul>
+  </div>
+  <hr>
+  <p>如有建议或问题，欢迎反馈！</p>
+</body>
+</html>
