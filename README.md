@@ -2,7 +2,7 @@
 
 本项目为 SQL 基础教程，包含多个章节的 SQL 示例脚本和一个示例数据库 `tutorial_data.db`，适合初学者自学和练习。
 
-## 目录结构
+## 目录
 
 - Chapter 1: Introduction（介绍）
 - Chapter 2: Retrieve Data（数据检索）
