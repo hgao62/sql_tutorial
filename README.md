@@ -4,16 +4,14 @@
 
 ## 目录结构
 
-- `chapter 1: Introduction`（无对应 SQL 脚本）
-- `chatper2_retrieve_data.sql`：第 2 章，数据检索
-- `chapter3_filter_data.sql`：第 3 章，数据筛选
-- `chapter4_sort_data.sql`：第 4 章，数据排序
-- `chapter5_wildcard_filtering.sql`：第 5 章，通配符筛选
-- `chapter6_calculated_fields.sql`：第 6 章，计算字段
-- `chapter7_summarize_data.sql`：第 7 章，数据汇总
-- `chapter8_join.sql`：第 8 章，表连接
-
-- `tutorial_data.db`：示例 SQLite 数据库文件
+- Chapter 1: Introduction（介绍）
+- Chapter 2: Retrieve Data（数据检索）
+- Chapter 3: Filter Data（数据筛选）
+- Chapter 4: Sort Data（数据排序）
+- Chapter 5: Wildcard Filtering（通配符筛选）
+- Chapter 6: Calculated Fields（计算字段）
+- Chapter 7: Summarize Data（数据汇总）
+- Chapter 8: Join（表连接）
 
 ## 环境准备
 
